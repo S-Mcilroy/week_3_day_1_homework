@@ -72,5 +72,5 @@ UPDATE movies SET show_time = '19:00' WHERE title = 'Iron Man 2';
 -- 10. (Extension) Research how to delete multiple entries from your table in a single command.
 DELETE FROM movies WHERE title = 'Black Panther' OR title = 'Captain America: Civil War';
 
-SELECT * FROM movies
-SELECT * FROM people 
+SELECT * FROM movies;
+SELECT * FROM people;
