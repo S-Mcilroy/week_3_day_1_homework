@@ -67,8 +67,8 @@ DELETE FROM people WHERE name = 'Eric Cartman';
 -- 8. The cinema has just heard that they will be holding an exclusive midnight showing of ‘Avengers: Infinity War’!! Create a new entry in the ‘movies’ table to reflect this.
 INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 2020, '24:00');
 -- 9. The cinema would like to make the Iron Man movies a triple billing. Find out the show time of “Iron Man 2” and set the show time of “Iron Man 3” to start two hours later.
-SELECT show_time FROM movies WHERE title = 'Iron Man';
-UPDATE movies SET show_time = '19:00' WHERE title = 'Iron Man 2';
+SELECT show_time FROM movies WHERE title = 'Iron Man 2';
+UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
 -- 10. (Extension) Research how to delete multiple entries from your table in a single command.
 DELETE FROM movies WHERE title = 'Black Panther' OR title = 'Captain America: Civil War';
 
